@@ -5,10 +5,20 @@ A small premier on the implementations of Multi threading and multi processing t
 
 This requires `asyncio` so you'll need python3 for the asyncio examples. All examples downloads a 1MB file using various techniques. This is to experiment with multithreading, multiprocessing and `asyncio`. 
 
+To run, ensure you have python 3.6+, and 
+
+```
+$ cd your-project 
+$ python3 -m venv venv 
+$ source venv/bin/activate 
+$ pip install -r requirements.txt
+```
+
+
 
 ```
 # Downloading 1MB using requests and sequential downloads
-$ python simple.fetch.py
+$ python simple.fetch.urls.py
 ```
 ```
 # Downloading 1MB using `threading` module
