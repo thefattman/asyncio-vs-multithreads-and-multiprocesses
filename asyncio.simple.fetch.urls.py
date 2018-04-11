@@ -26,4 +26,4 @@ if __name__ == '__main__':
     loop.run_until_complete(responses)
         
     print("All Done ", time() - start, " sec")
-    pprint(list(responses.result()))
+    #pprint(list(responses.result()))
