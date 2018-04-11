@@ -16,7 +16,7 @@ async def main():
             
     
     print(F"All done {time() - start} seconds")
-    pprint(responses)
+    #pprint(responses)
         
                 
 
